@@ -1,0 +1,84 @@
+{
+    "problem_type": "stdio",
+    "checker": "tcmp.cc",
+    "checker_language": "cpp11",
+    "validator": "validator.py",
+    "validator_language": "py3",
+    "limits": {
+        "time": 1000,
+        "memory": 10240000,
+        "factor": {
+            "cpp": 0,
+            "cpp11": 1000,
+            "py3": 20000
+        }
+    },
+    "main_solution": {
+        "name": "solution_mcs.cc",
+        "language": "cpp11"
+    },
+    "solutions": {
+        "AC": [
+            {
+                "name": "solution.cc",
+                "language": "cpp11"
+            },
+            {
+                "name": "solution.py",
+                "language": "py3"
+            }
+        ],
+        "AC/WA": [
+            {
+                "name": "solution_heuristic.cc",
+                "language": "cpp11"
+            }
+        ],
+        "WA": [
+            {
+                "name": "solution_wa.cc",
+                "language": "cpp11"
+            }
+        ],
+        "TLE/MLE": [
+            {
+                "name": "solution_tle.cc",
+                "language": "cpp11"
+            }
+        ],
+        "TLE": [],
+        "MLE": [
+            {
+                "name": "solution_mle.cc",
+                "language": "cpp11"
+            }
+        ],
+        "FAIL": [
+            {
+                "name": "solution_runtime_error.cc",
+                "language": "cpp11"
+            }
+        ]
+    },
+    "generators": {
+        "random": {
+            "name": "generator.py",
+            "language": "py3"
+        },
+        "manual": {
+            "name": "generator_manual.py",
+            "language": "py3"
+        }
+    },
+    "genscript": [
+        "manual 1",
+        "manual 2",
+        "random 1 10",
+        "random 1 10 random_seed",
+        "random 1 10 random_seed ___"
+    ],
+    "versions": {
+        "config": 1,
+        "repository": 1
+    }
+}
