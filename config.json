@@ -52,7 +52,7 @@
                 "name": "solution_mle.cc",
                 "language": "cpp11"
             }
-        ],
+        ]
     },
     "generators": {
         "random": {
