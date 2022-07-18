@@ -52,6 +52,12 @@
                 "name": "solution_mle.cc",
                 "language": "cpp11"
             }
+        ],
+        "FAIL": [
+            {
+                "name": "solution_runtime_error.cc",
+                "language": "cpp11"
+            }
         ]
     },
     "generators": {
