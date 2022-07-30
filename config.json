@@ -1,4 +1,5 @@
 {
+    "problem_title": "문제 제목",
     "problem_type": "stdio",
     "checker": "tcmp.cc",
     "checker_language": "cpp11",
@@ -13,6 +14,17 @@
             "py3": 20000
         }
     },
+    "enable_language": [],
+    "statements": [
+        {
+            "name": "statement.md",
+            "label": "한국어"
+        },
+        {
+            "name": "statement_en.md",
+            "label": "English"
+        }
+    ],
     "main_solution": {
         "name": "solution_mcs.cc",
         "language": "cpp11"

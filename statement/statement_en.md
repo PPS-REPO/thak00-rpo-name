@@ -1,5 +1,3 @@
-# a + b + c
-
 given three integer a, b, c
 
 print a + b + c
